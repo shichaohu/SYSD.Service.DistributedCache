@@ -1,0 +1,17 @@
+E:\project\本地项目\GitHub\SYSD.Service.DistributedCache\SYSD.Service.DistributedCache\bin\Debug\SYSD.Service.DistributedCache.dll
+E:\project\本地项目\GitHub\SYSD.Service.DistributedCache\SYSD.Service.DistributedCache\bin\Debug\SYSD.Service.DistributedCache.pdb
+E:\project\本地项目\GitHub\SYSD.Service.DistributedCache\SYSD.Service.DistributedCache\bin\Debug\MongoDB.Bson.dll
+E:\project\本地项目\GitHub\SYSD.Service.DistributedCache\SYSD.Service.DistributedCache\bin\Debug\MongoDB.Driver.Core.dll
+E:\project\本地项目\GitHub\SYSD.Service.DistributedCache\SYSD.Service.DistributedCache\bin\Debug\MongoDB.Driver.dll
+E:\project\本地项目\GitHub\SYSD.Service.DistributedCache\SYSD.Service.DistributedCache\bin\Debug\Newtonsoft.Json.dll
+E:\project\本地项目\GitHub\SYSD.Service.DistributedCache\SYSD.Service.DistributedCache\bin\Debug\StackExchange.Redis.dll
+E:\project\本地项目\GitHub\SYSD.Service.DistributedCache\SYSD.Service.DistributedCache\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\project\本地项目\GitHub\SYSD.Service.DistributedCache\SYSD.Service.DistributedCache\bin\Debug\MongoDB.Bson.xml
+E:\project\本地项目\GitHub\SYSD.Service.DistributedCache\SYSD.Service.DistributedCache\bin\Debug\MongoDB.Driver.xml
+E:\project\本地项目\GitHub\SYSD.Service.DistributedCache\SYSD.Service.DistributedCache\bin\Debug\MongoDB.Driver.Core.xml
+E:\project\本地项目\GitHub\SYSD.Service.DistributedCache\SYSD.Service.DistributedCache\bin\Debug\Newtonsoft.Json.xml
+E:\project\本地项目\GitHub\SYSD.Service.DistributedCache\SYSD.Service.DistributedCache\bin\Debug\StackExchange.Redis.xml
+E:\project\本地项目\GitHub\SYSD.Service.DistributedCache\SYSD.Service.DistributedCache\obj\Debug\SYSD.Service.DistributedCache.csprojResolveAssemblyReference.cache
+E:\project\本地项目\GitHub\SYSD.Service.DistributedCache\SYSD.Service.DistributedCache\obj\Debug\SYSD.Service.DistributedCache.csproj.CoreCompileInputs.cache
+E:\project\本地项目\GitHub\SYSD.Service.DistributedCache\SYSD.Service.DistributedCache\obj\Debug\SYSD.Service.DistributedCache.dll
+E:\project\本地项目\GitHub\SYSD.Service.DistributedCache\SYSD.Service.DistributedCache\obj\Debug\SYSD.Service.DistributedCache.pdb
