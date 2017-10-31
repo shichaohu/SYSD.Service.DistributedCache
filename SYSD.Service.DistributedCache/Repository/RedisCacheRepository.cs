@@ -22,7 +22,7 @@ namespace SYSD.Service.DistributedCache.Repository
             }
         }
 
-        public RedisCacheRepository(string _conn) : base(_conn)
+        internal RedisCacheRepository(string _conn) : base(_conn)
         {
         }
         public override T GetValue<T>(string key)
@@ -68,16 +68,9 @@ namespace SYSD.Service.DistributedCache.Repository
             }
         }
 
-        public override void Close()
-        {
-            if (_redisconn != null)
-            {
-                _redisconn.Close();
-            }
-        }
-
         public override void Dispose()
         {
+            _redisconn.Close();
             _redisconn.Dispose();
             _redisdb = null;
         }

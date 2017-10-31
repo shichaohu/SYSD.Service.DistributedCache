@@ -23,7 +23,7 @@ namespace SYSD.Service.DistributedCache.Repository
             }
         }
 
-        public MongoDBCacheRepository(string _conn) : base(_conn)
+        internal MongoDBCacheRepository(string _conn) : base(_conn)
         {
         }
         public override T GetValue<T>(string key)
@@ -64,11 +64,6 @@ namespace SYSD.Service.DistributedCache.Repository
                 server = new MongoClient("");//MongodbHost
             }
             db = server.GetDatabase("");//MongodbName
-        }
-
-        public override void Close()
-        {
-            db.DropCollection("");//MongodbName
         }
 
         public override void Dispose()

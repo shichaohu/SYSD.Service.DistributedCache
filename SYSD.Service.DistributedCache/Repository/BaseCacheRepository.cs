@@ -31,9 +31,7 @@ namespace SYSD.Service.DistributedCache.Repository
         }
 
         public abstract void Open();
-
-        public abstract void Close();
-
+        
         public abstract void Dispose();
     }
 }

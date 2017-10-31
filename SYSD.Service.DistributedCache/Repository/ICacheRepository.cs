@@ -15,7 +15,5 @@ namespace SYSD.Service.DistributedCache.Repository
         bool Delete(string key);
 
         void Open();
-
-        void Close();
     }
 }

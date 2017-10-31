@@ -30,6 +30,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Enyim.Caching, Version=2.16.0.0, Culture=neutral, PublicKeyToken=cec98615db04012e, processorArchitecture=MSIL">
+      <HintPath>..\packages\EnyimMemcached.2.16.0\lib\net35\Enyim.Caching.dll</HintPath>
+    </Reference>
     <Reference Include="MongoDB.Bson, Version=2.4.4.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\MongoDB.Bson.2.4.4\lib\net45\MongoDB.Bson.dll</HintPath>
     </Reference>
@@ -60,13 +63,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CacheConfig\BaseCacheConfig.cs" />
+    <Compile Include="CacheConfig\MemcachedCacheConfig.cs" />
+    <Compile Include="CacheConfig\MongoDBCacheConfig.cs" />
+    <Compile Include="CacheConfig\RedisCacheConfig.cs" />
     <Compile Include="CacheHelper.cs" />
     <Compile Include="CacheTypeEnum.cs" />
     <Compile Include="Factory\CacheFactory.cs" />
+    <Compile Include="Factory\MemcachedCacheFactory.cs" />
+    <Compile Include="Factory\MongoDBCacheFactory.cs" />
     <Compile Include="Factory\RedisCacheFactory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repository\BaseCacheRepository.cs" />
     <Compile Include="Repository\ICacheRepository.cs" />
+    <Compile Include="Repository\MemcachedCacheRepository.cs" />
     <Compile Include="Repository\MongoDBCacheRepository.cs" />
     <Compile Include="Repository\RedisCacheRepository.cs" />
   </ItemGroup>
